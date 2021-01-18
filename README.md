@@ -1,2 +1,2 @@
 # sortowania
-Repozytorium zawiera różne implementacje sortowań.
+Repozytorium zawiera różne implementacje sortowań w języku Python.
