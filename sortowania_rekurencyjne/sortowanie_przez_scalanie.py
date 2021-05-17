@@ -23,7 +23,6 @@ def merge(T, lewy, prawy, pivot):
 
 def mergesort(T, lewy, prawy):
     if lewy != prawy:
-        # pivot = int((lewy + prawy) / 2) - inny sposób implementacji dzielenia poniżej
         pivot = (lewy + prawy) // 2
         mergesort(T, lewy, pivot)
         mergesort(T, pivot + 1, prawy)
